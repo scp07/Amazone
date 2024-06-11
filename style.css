@@ -1,0 +1,246 @@
+*{
+    font-family: Arial;
+    margin: 0;
+    box-sizing: border-box;
+}
+.border {
+    border: 2px solid transparent;
+    
+}
+.border:hover {
+    border: 1.5px solid white;
+}
+/* header navbar  */
+.navbar{
+    background-color: #0f1111;
+    height: 60px;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.amz-pic img {
+ height: 60px;   
+ margin-right: 10px;
+}
+
+/* nav box 2 */
+.nav-location{
+    display: flex;
+    align-items: center;
+}
+.nav-loc-logo{
+    padding-right: 6px;
+    margin-top: 20px;
+    color: #d7e4e4;
+    font-size: .9rem;
+}
+.nav-loc-taxt span{
+    color: #cccccc;
+    font-size: .8rem;
+
+}
+.nav-loc-country span{
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+
+
+/* nav search  box 3*/
+
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: cadetblue;
+    width: 740px;
+    height: 40px;
+    border-radius: 4px;
+}
+.nav-select{
+    background-color: #f3f3f3;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.Search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-logo{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #febd68;
+    font-size: 1.2rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+/* nav language */
+
+.nav-langu{
+    background-color: #0f1111;
+    border: none;
+    color: #ffff;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 14px 0px 0px 0px;
+    padding: 0px 9px 5px;
+}
+
+/* box 4 */
+.nav-sin{
+    
+    padding: 0px 0px 7px;
+}
+.nav-lists{
+    background-color: #0f1111;
+    border: none;
+    color: #ffff;
+    font-weight: 700;
+    font-size: 14px;
+}
+.nav-sing{
+    font-size: 13px;
+}
+.nav-hello{
+    font-size: 13px;
+}
+
+/* box 5 */
+.nav-ret{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/* font 5 */
+.nav-card {
+    display: flex;
+    justify-content: center;
+   
+    font-size: .85rem;
+    
+}
+.nav-card i{
+    font-size: 25px;
+   
+}
+.card-div span{
+    margin-top: 10px;
+}
+/* panel */
+.panel{
+    background-color: #232F3E;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #e9e2e2;
+}
+
+/* hero  section*/
+.hero-section{
+    background-image:url(image/hero_image.jpg) ;
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.hero-text-fild{
+    background-color: #ffff;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 97%;
+    margin-bottom: 25px;
+
+}
+.hero-text-fild a{
+    text-decoration: none;
+    color: rgb(93, 185, 188);
+
+}
+/* shops section */
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+    background-color: rgb(211, 222, 224);
+}
+.box {
+    height: 400px;
+    width: 23%;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    background-color: white;
+    box-shadow: 0px 2px 3px;
+}
+.box:hover{
+    box-shadow: 0px 7px 9px rgb(12, 12, 12);
+}
+.box p{
+    color: rgb(93, 185, 188);
+}
+.box-image1{
+    height: 280px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/* footer  */
+
+.footer-panel1{
+    background-color: #232F3E;
+    font-size: .85rem;
+    color: #cccccc;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+/* footer panel 2 */
+.footer-panel2{
+    display: flex;
+    justify-content: space-evenly;
+    height: 280px;
+    background-color: #2d3e54;
+    color: #ffffff;
+}
+ul{
+    margin-top: 30px;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: #DDDD;
+    font-size: 0.9rem;
+}
+
+/* footer panel 3 */
+
+.footer-logo{
+    border-top: .2px solid white;
+    height: 80px;
+    background-color: #2d3e54;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
